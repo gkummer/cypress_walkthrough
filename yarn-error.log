@@ -1,0 +1,54 @@
+Arguments: 
+  /usr/bin/node /usr/share/yarn/bin/yarn.js run cy:open
+
+PATH: 
+  /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/mnt/c/Program Files/WindowsApps/CanonicalGroupLimited.Ubuntu18.04onWindows_1804.2020.423.0_x64__79rhkp1fndgsc:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/Program Files (x86)/Windows Live/Shared:/mnt/c/Program Files (x86)/Skype/Phone/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/nodejs/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/Microsoft SQL Server/130/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/:/mnt/c/Program Files/Git/cmd:/mnt/c/Users/jerrykeren/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin:/opt/yarn-[version]/bin:
+
+Yarn version: 
+  1.22.4
+
+Node version: 
+  13.14.0
+
+Platform: 
+  linux x64
+
+Trace: 
+  SyntaxError: /home/gkummer/cypress_module/cypress_walkthrough/package.json: Unexpected string in JSON at position 177
+      at JSON.parse (<anonymous>)
+      at /usr/share/yarn/lib/cli.js:1625:59
+      at Generator.next (<anonymous>)
+      at step (/usr/share/yarn/lib/cli.js:310:30)
+      at /usr/share/yarn/lib/cli.js:321:13
+
+npm manifest: 
+  {
+    "name": "cypress_walkthrough",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+      "cy:open": "cypress open"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/gkummer/cypress_walkthrough.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/gkummer/cypress_walkthrough/issues"
+    },
+    "homepage": "https://github.com/gkummer/cypress_walkthrough#readme",
+    "devDependencies": {
+      "cypress": "^4.5.0"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
